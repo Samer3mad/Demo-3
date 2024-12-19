@@ -130,6 +130,47 @@
             //Console.WriteLine(message);
             #endregion
             #endregion
+
+            #region Operator Periorety
+            /*
+             1. Unary 
+             2. ()
+             3. * / %
+             4. + -
+             */
+
+            //int a = 20;
+            //int b = 15;
+            //int c = 10;
+            //int d = 5;
+            //int result;
+            //result = (a + b) * c / d;
+            //result = ++a * c;
+            ////result = a * c;
+            //Console.WriteLine(result);
+            #endregion
+
+            #region String Formating
+            // Eq = x + y = result;
+            // Eq = 10 + 5 = 15
+            //int x = 5;
+            //int y = 10;
+            //int result = x + y;
+            //Console.WriteLine("Eq: " + x + "+" + y + "=" + result);
+            //String=>immutable datatype
+            //string name = "Samer";
+            //name = "emad";
+
+            #region Composite Format
+            //string message = String.Format("Eq= {0} + {1} = {2}", x, y, result);
+            //Console.WriteLine(message);
+            #endregion
+
+            #region String Manipolition
+            //Console.WriteLine($"Eq= {x}+{y}={result}");
+            #endregion
+
+            #endregion
         }
     }
 }
